@@ -16,6 +16,7 @@ Python has two flavors -- Python 2 and Python 3. This set of examples are in Pyt
 > [Module 3](Module3_ConditionLoop.ipynb) : Conditions and Loops in Python   
 > [Module 4](Module4_Functions.ipynb) : Functions and Modules in Python   
 > [Module 5](Module5_PythonComputing.ipynb) : Computing with Python   
+> [Module 6](Module6_DataHandling.ipynb) : Data Handling with Python   
 > [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges
 
 ---

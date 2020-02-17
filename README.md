@@ -17,6 +17,9 @@ Python has two flavors -- Python 2 and Python 3. This set of examples are in Pyt
 > [Module 4](Module4_Functions.ipynb) : Functions and Modules in Python   
 > [Module 5](Module5_PythonComputing.ipynb) : Computing with Python   
 > [Module 6](Module6_DataHandling.ipynb) : Data Handling with Python   
+> [Module 7](Module7_BasicDataScience.ipynb) : Basic Data Science in Python   
+> [Module 8](Module8_ObjectOrientedPython.ipynb) : Classes and Objects in Python   
+> [Module X](ModuleX_MiscellaneousTopics.ipynb) : Miscellaneous Topics in Python   
 > [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges
 
 ---

@@ -2,6 +2,8 @@
 # Change the last part of the code to change its behaviour
 
 # Define a Function to check the strength of a Password
+
+
 def isGoodPassword(password):
     '''
     Checks whether an input password is 'Good' or 'Bad'.

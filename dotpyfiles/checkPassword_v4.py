@@ -45,7 +45,8 @@ def main():
     Executes the main functionality of the module
     '''
     parser = argparse.ArgumentParser()
-    parser.add_argument("--passwd", required=True, type=str, help="Your password")
+    parser.add_argument("--passwd", required=True,
+                        type=str, help="Your password")
     args = parser.parse_args()
 
     isGood = isGoodPassword(args.passwd)

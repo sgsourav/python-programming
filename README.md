@@ -20,8 +20,8 @@ Python has two flavors -- Python 2 and Python 3. This set of examples are in Pyt
 > [Module 7](Module7_BasicDataScience.ipynb) : Basic Data Science in Python   
 > [Module 8](Module8_ObjectOrientedPython.ipynb) : Classes and Objects in Python   
 > [Module X](ModuleX_MiscellaneousTopics.ipynb) : Miscellaneous Topics in Python   
-> [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges
-> [Solutions](ProgrammingSolutions.ipynb) : Python Programming Solutions
+> [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges        
+> [Solutions](ProgrammingSolutions.ipynb) : Python Programming Solutions        
 
 ---
 

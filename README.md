@@ -2,45 +2,48 @@
 
 **Welcome to the World of Python!**
 
-This is an introductory course in Python, with Jupyter Notebook as the User Interface (IDE), prepared by [Sourav Sen Gupta](http://www.souravsengupta.com/).
+This repository hosts introductory course materials for Python, prepared by [Sourav Sen Gupta](http://www.souravsengupta.com/), primarily to cater to *AI6120*, a bridging course on Python Programming for the [NTU SCSE MSAI Program](http://scse.ntu.edu.sg/Programmes/ProspectiveStudents/Graduate/msc-AI/Pages/Home.aspx). This course aims to provide appropriate computing exposure to students (primarily from non-CS backgrounds) who will study other courses in Data Science and AI.
 
-Python is a fun language to learn, and really easy to pick up even if you are new to programming. In fact, quite often, Python is easier to pick up if you do not have any programming experience whatsoever. Python is a high level language, targeted at students and professionals from diverse backgrounds. It offers an amazing array of [Useful Libraries](https://wiki.python.org/moin/UsefulModules) too.
+Python is a fun language to learn, and really easy to pick up even if you are new to programming. In fact, quite often, Python is easier to pick up if you do not have any programming experience whatsoever. Python is a high level language, targeted at students and professionals from diverse backgrounds. It offers an amazing array of [useful libraries](https://wiki.python.org/moin/UsefulModules) too.
 
----
 
-Python has two flavors -- Python 2 and Python 3. This set of examples are in Python 3, written and executed in the beautifully simple IDE Jupyter Notebook. Note that Jupyter sets up a `localhost:8888` server to render the notebook in your computer's browser. It can render anything thereafter -- should be fun! Once you are familiar with the Jupyter Notebook environment, and the basic Python syntax in [Module 0](Module0_TheNotebook.ipynb), feel free to explore the rest of the Python Modules.
+## Plan of Action
 
-> [Module 0](Module0_TheNotebook.ipynb) : Python in Jupyter Notebook   
-> [Module 1](Module1_DataTypes.ipynb) : Basic Data Types in Python  
-> [Module 2](Module2_DataStructures.ipynb) : Data Structures in Python   
-> [Module 3](Module3_ConditionLoop.ipynb) : Conditions and Loops in Python   
-> [Module 4](Module4_Functions.ipynb) : Functions and Modules in Python   
-> [Module 5](Module5_PythonComputing.ipynb) : Computing with Python   
-> [Module 6](Module6_DataHandling.ipynb) : Data Handling with Python   
-> [Module 7](Module7_BasicDataScience.ipynb) : Basic Data Science in Python   
-> [Module 8](Module8_ObjectOrientedPython.ipynb) : Classes and Objects in Python   
-> [Module X](ModuleX_MiscellaneousTopics.ipynb) : Miscellaneous Topics in Python   
-> [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges        
-> [Solutions](ProgrammingSolutions.ipynb) : Python Programming Solutions        
+**We will use Python 3** in this course (current version is Python 3.8), as follows.
 
----
+- Step 1 : Writing Python code within an online IDE : https://repl.it/languages/python3   
+- Step 2 : Writing Python code locally using an IDE : https://code.visualstudio.com/   
+- Step 3 : Using Jupyter Notebook as the local IDE within [Anaconda for Python 3.8](https://www.anaconda.com/products/individual)   
+- Step 4 : Using Notebook Platforms on the Cloud through [Google Colaboratory](https://colab.research.google.com/)   
 
-To get the most out of this crash course, you'll need to download and use the Jupyter Notebooks for individual Modules posted in this repository (or `git clone` the repository). Before that, prepare your computer by installing the following.
+#### [General Python Codes](GeneralPythonCodes)
 
-> Platform : Anaconda for Python 3.7 (https://www.anaconda.com/)     
-> Core Engine : Python 3.7 (it will get installed with Anaconda)    
-> User Interface (IDE) : Jupyter Notebook (comes with Anaconda)     
+> Resources posted in the folder [GeneralPythonCodes](GeneralPythonCodes) of this repository
 
-In case installing Anaconda for Python 3.7 is too heavy for you, and you know how to manage conda environments and packages, you may also download and install the MiniConda (https://docs.conda.io/en/latest/miniconda.html) package for Python 3.7. It's lightweight, but you will have to install all required Data Science packages individually, on your own.
+The online IDE [repl.it](https://repl.it/languages/python3) is readily available online. This is the easiest way for you to practice Python programming by writing short pieces of code and running them on the backend server. The next logical step is to download the offline IDE [VS Code](https://code.visualstudio.com/) and set it up for Python programming. Here, you will be able to write more complex (multi-file) programs to run on your own computer. This will also allow us to execute Python programs through the command-line interface, a necessary skill for using remote servers.
 
----
+#### [Jupyter Notebooks](JupyterNotebooks)
 
-This set of introductory material for Python is heavily inspired from two wonderful lecture series in Python, as follows.
+> Resources posted in the folder [JupyterNotebooks](JupyterNotebooks) of this repository
 
-- Python4Maths by Andreas Ernst : https://gitlab.erc.monash.edu.au/andrease/Python4Maths
-- Python Lectures by Rajath Kumar : https://github.com/rajathkmp/Python-Lectures
+Next, we will try to explore some lovely libraries in Python for Data Science and Machine Learning, namely, NumPy, SciPy, Pandas, Seaborn, Scikit-Learn, and Matplotlib. The easiest way to leverage all of them is the [Anaconda](https://www.anaconda.com/products/individual) platform. It is highly recommended that you install it on your computer, as we will work a lot with Python Notebooks. Finally, we will take our Notebooks to the cloud, through the wonderful [Google Colaboratory](https://colab.research.google.com/). It offers a substantial cloud computing platform with GPU entirely free of cost!
 
-**Highly recommended** : [Python 3 Cheat Sheet](pythonCheatSheet.pdf) by [Laurent Pointal](https://perso.limsi.fr/pointal/python:memento). This 2-pager is a life-saver -- print and frame it!
+## Resources
+
+**Gratitude** : This set of introductory material for Python is heavily inspired from two wonderful lecture series in Python, as follows, with new material targeted at data handling and basic data science inspired from the books mentioned below.
+
+- *Python4Maths* by Andreas Ernst : https://gitlab.erc.monash.edu.au/andrease/Python4Maths
+- *Python Lectures* by Rajath Kumar : https://github.com/rajathkmp/Python-Lectures
+
+In case you want to learn and practice Python programming on your own, or want to refer to more theoretical content, feel free to read the following books. There are several other books and resources (primarily videos) available online for your reference.
+
+- *Think Python 2e : How to Think Like a Computer Scientist* (2nd Edition) by Allen B. Downey. Available online at https://greenteapress.com/wp/think-python-2e/
+- *A Whirlwind Tour of Python* (O’Reilly) by Jake VanderPlas. Available online at https://jakevdp.github.io/WhirlwindTourOfPython/
+- *Python Data Science Handbook* (O'Reilly) by Jake VanderPlas. Available online at https://jakevdp.github.io/PythonDataScienceHandbook/
+
+**Highly recommended** : Every Python user needs to know about the following resources.
+- [Python 3 Cheat Sheet](pythonCheatSheet.pdf) by [Laurent Pointal](https://perso.limsi.fr/pointal/python:memento). This 2-pager is a life-saver -- print and frame it!
+- [Data Science & Machine Learning](https://chrisalbon.com/) by Chris Albon. This is a true treasure trove -- go explore!
 
 ---
 

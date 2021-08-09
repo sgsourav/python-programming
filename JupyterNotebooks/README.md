@@ -30,8 +30,7 @@ You may download the Notebooks (Chapters) posted in this repository (or `git clo
 > [Chapter 6](Chapter6_DataHandling.ipynb) : Data Handling with Python   
 > [Chapter 7](Chapter7_BasicDataScience.ipynb) : Basic Data Science in Python   
 > [Chapter 8](Chapter8_ObjectOrientedPython.ipynb) : Classes and Objects in Python   
-> [Chapter X](ChapterX_MiscellaneousTopics.ipynb) : Miscellaneous Topics in Python   
-> [Problems](ProgrammingChallenges.ipynb) : Python Programming Challenges        
+> [Chapter X](ChapterX_MiscellaneousTopics.ipynb) : Miscellaneous Topics in Python     
 
 
 ## Google Colaboratory

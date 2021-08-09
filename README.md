@@ -9,7 +9,7 @@ Python is a fun language to learn, and really easy to pick up even if you are ne
 
 ## Plan of Action
 
-**We will use Python 3** in this course (current version is Python 3.8), as follows.
+**We will use Python 3** in this course (specifically, Python 3.8), as follows.
 
 - Step 1 : Writing Python code within an online IDE : https://repl.it/languages/python3   
 - Step 2 : Writing Python code locally using an IDE : https://code.visualstudio.com/   

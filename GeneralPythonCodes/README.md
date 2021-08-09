@@ -10,12 +10,12 @@ Standalone Python code and scripts may be executed in multiple ways, as follows.
 
 The popular interpreters to run code/scripts within (generally line-by-line) are the basic **Python Interpreter** and the slightly more sophisticated **IPython Interpreter**. Both of these are accessible through the terminal in Linux/Mac and command prompt in Windows after you have installed python on your system. Install Python 3.8 to start with.
 
-#### Installing Python 3.8
+#### Installing Python
 In terms of this course, the easiest way to install Python 3.8 and all relevant packages for computation is to install the entire [Anaconda platform for Python 3.8](https://www.anaconda.com/products/individual). Install it, open the `terminal` in case of Linux/Mac or the `cmd`  prompt in case of Windows, and check the version of python to make sure you have installed everything correctly.
 
 ```
 $ python --version
-Python 3.8.3
+Python 3.8.10
 ```
 
 If this works fine, you are most likely in your `(base)` environment for `conda`, and your default python interpreter is Python 3.8. This is the most convenient setup for us.
@@ -24,9 +24,9 @@ If this works fine, you are most likely in your `(base)` environment for `conda`
 Install Python 3.8 on your computer, open the `terminal` in case of Linux/Mac or the `cmd`  prompt in case of Windows, check the version of python, and type `python` to get to the basic Python Interpreter. You may execute basic codes in this interpreter, line by line.
 
 ```
-Python 3.8.3 (default, Jul  2 2020, 11:26:31)
-[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
-Type "help", "copyright", "credits" or "license" for more information.
+Python 3.8.10 (default, May 19 2021, 11:01:55)     
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin     
+Type "help", "copyright", "credits" or "license" for more information.   
 >>> print("Hello Sourav!")
 Hello Sourav!
 >>>
@@ -36,9 +36,9 @@ Hello Sourav!
 Install Python 3.8 on your computer, open the `terminal` in case of Linux/Mac or the `cmd`  prompt in case of Windows, check the version of python, and type `ipython` to get to the slightly more sophisticated IPython Interpreter. You may execute basic codes in this interpreter, in cells.
 
 ```
-Python 3.8.3 (default, Jul  2 2020, 11:26:31)
-Type 'copyright', 'credits' or 'license' for more information
-IPython 7.16.1 -- An enhanced Interactive Python. Type '?' for help.
+Python 3.8.10 (default, May 19 2021, 11:01:55)     
+Type 'copyright', 'credits' or 'license' for more information    
+IPython 7.22.0 -- An enhanced Interactive Python. Type '?' for help.    
 
 In [1]: print("Hello Sourav!")                                                                                               
 Hello Sourav!
